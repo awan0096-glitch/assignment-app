@@ -41,7 +41,7 @@ export default function Mononoke() {
           {/* headline */}
           <div className="self-stretch inline-flex flex-col justify-start items-center">
             <div className="self-stretch text-center justify-start text-[#333333] text-8xl font-normal font-['Nothing_You_Could_Do'] -mb-[100]">
-              Howl Moving Castle
+              Howl’s Moving Castle
             </div>
             <ParallaxHero
               // title="Howl's Moving Castle"
