@@ -1,9 +1,8 @@
 import Nav from "../../components/nav/nav";
 import Gallery from "../../components/gallery/gallery";
 import Footer from "../../components/footer/footer";
-import ParallaxHero from "../../components/ParallaxHero/ParallaxHero"
+import ParallaxHero from "../../components/ParallaxHero/ParallaxHero";
 import Link from "next/link";
-
 
 export default function Totoro() {
   let h1Class =
@@ -13,7 +12,7 @@ export default function Totoro() {
   let pClass = "text-[#333] text-center text-[16px] font-normal leading-normal";
   let h3Class =
     "text-center text-[12px] font-medium leading-normal text-[#333]";
-  
+
   const slides = [
     {
       src: "/pictures/My Neighbor Totoro_1.jpg",
@@ -31,7 +30,6 @@ export default function Totoro() {
       desc: "Gentle woodland creatures that symbolize nature’s magic and mystery.",
     },
   ];
-
 
   return (
     <>
